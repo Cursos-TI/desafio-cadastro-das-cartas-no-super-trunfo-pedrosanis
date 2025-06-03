@@ -49,6 +49,7 @@ int main() {
     printf("\n");
 
     // Cadastro da Carta 2
+
     printf("=== Cadastro da Carta 2 ===\n");
     printf("Digite uma letra maiúscula de 'A' a 'H' (estado): ");
     scanf(" %c", &estado_2);
