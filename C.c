@@ -1,11 +1,13 @@
 #include <stdio.h>
+#include <math.h>
+#include <locale.h>
+
 
 int main () {
-    int a = 10;
-    float b = 3.5;
-    float a2 = a + b;
+    long variable = (359.6 * pow(10,9)) / 6211223;
+    setlocale(LC_ALL, "pt_BR.UTF-8");
 
-    printf("%.2f\n",a2);
+    printf("R$ %'lld", variable);
 
     return 0;
 
